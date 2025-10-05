@@ -1,0 +1,68 @@
+import { Course } from '../types';
+
+export const coursesData: Course[] = [
+  {
+    id: 1,
+    title: 'Modern React with TypeScript',
+    instructor: 'Jane Doe',
+    imageUrl: 'https://picsum.photos/seed/react/600/400',
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    price: 99.99,
+    description: 'Dive deep into React and TypeScript to build scalable and maintainable web applications. Learn about hooks, context, and advanced patterns.',
+    curriculum: [
+      { module: '1. Introduction', lessons: [{ title: 'Setting up the environment', duration: '25 mins' }, { title: 'Understanding JSX', duration: '35 mins' }] },
+      { module: '2. Core Concepts', lessons: [{ title: 'State and Props', duration: '45 mins' }, { title: 'Lifecycle Methods vs Hooks', duration: '55 mins' }] },
+      { module: '3. Advanced TypeScript', lessons: [{ title: 'Generics and Types', duration: '60 mins' }, { title: 'Integrating with React', duration: '40 mins' }] },
+    ],
+    instructorBio: 'Jane Doe is a senior frontend engineer with over 10 years of experience building applications for tech giants. She is passionate about clean code and modern web technologies.',
+    instructorImage: 'https://i.pravatar.cc/150?u=jane_doe',
+  },
+  {
+    id: 2,
+    title: 'Advanced CSS and Tailwind',
+    instructor: 'John Smith',
+    imageUrl: 'https://picsum.photos/seed/tailwind/600/400',
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+    price: 79.99,
+    description: 'Master the art of styling with advanced CSS techniques and the popular utility-first framework, Tailwind CSS. Build beautiful, responsive designs with ease.',
+     curriculum: [
+      { module: '1. CSS Fundamentals', lessons: [{ title: 'Selectors and Specificity', duration: '30 mins' }, { title: 'Flexbox vs Grid', duration: '45 mins' }] },
+      { module: '2. Tailwind CSS', lessons: [{ title: 'Utility-First Principles', duration: '40 mins' }, { title: 'Customization and Theming', duration: '50 mins' }] },
+      { module: '3. Responsive Design', lessons: [{ title: 'Mobile-First Approach', duration: '35 mins' }, { title: 'Advanced Media Queries', duration: '30 mins' }] },
+    ],
+    instructorBio: 'John Smith is a design technologist who loves creating seamless user experiences. He has authored several popular open-source CSS libraries.',
+    instructorImage: 'https://i.pravatar.cc/150?u=john_smith',
+  },
+  {
+    id: 3,
+    title: 'UI/UX Design Fundamentals',
+    instructor: 'Emily White',
+    imageUrl: 'https://picsum.photos/seed/design/600/400',
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+    price: 119.99,
+    description: 'Learn the principles of great UI/UX design. This course covers everything from user research and wireframing to creating high-fidelity prototypes.',
+     curriculum: [
+      { module: '1. Introduction to UX', lessons: [{ title: 'User Research Methods', duration: '60 mins' }, { title: 'Creating Personas', duration: '45 mins' }] },
+      { module: '2. UI Design Principles', lessons: [{ title: 'Color Theory and Typography', duration: '50 mins' }, { title: 'Layout and Composition', duration: '55 mins' }] },
+      { module: '3. Prototyping', lessons: [{ title: 'Low-Fidelity Wireframes', duration: '40 mins' }, { title: 'Interactive Prototypes in Figma', duration: '75 mins' }] },
+    ],
+    instructorBio: 'Emily White is a UX lead at a top design agency. She believes that good design is about solving problems and has a knack for simplifying complex user flows.',
+    instructorImage: 'https://i.pravatar.cc/150?u=emily_white',
+  },
+   {
+    id: 4,
+    title: 'State Management with Redux',
+    instructor: 'Michael Brown',
+    imageUrl: 'https://picsum.photos/seed/redux/600/400',
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+    price: 89.99,
+    description: 'Tame the complexity of state in large applications with Redux. Learn the core principles, middleware, and modern patterns with Redux Toolkit.',
+     curriculum: [
+      { module: '1. The Need for State Management', lessons: [{ title: 'Understanding Prop Drilling', duration: '20 mins' }, { title: 'Redux Core Concepts', duration: '40 mins' }] },
+      { module: '2. Redux Toolkit', lessons: [{ title: 'createSlice and createAsyncThunk', duration: '60 mins' }, { title: 'RTK Query for Data Fetching', duration: '70 mins' }] },
+      { module: '3. Advanced Patterns', lessons: [{ title: 'Middleware and Enhancers', duration: '45 mins' }, { title: 'Testing Redux Logic', duration: '50 mins' }] },
+    ],
+    instructorBio: 'Michael Brown is a full-stack developer who specializes in application architecture. He enjoys helping developers write more predictable and testable code.',
+    instructorImage: 'https://i.pravatar.cc/150?u=michael_brown',
+  },
+];
